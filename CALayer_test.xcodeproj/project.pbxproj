@@ -16,6 +16,7 @@
 		CAB1C262248A218800BB7833 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1C261248A218800BB7833 /* main.m */; };
 		CAB1C26C248A218800BB7833 /* CALayer_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1C26B248A218800BB7833 /* CALayer_testTests.m */; };
 		CAB1C277248A218800BB7833 /* CALayer_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1C276248A218800BB7833 /* CALayer_testUITests.m */; };
+		CAB1C286248A21CD00BB7833 /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1C285248A21CD00BB7833 /* CircleLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CAB1C272248A218800BB7833 /* CALayer_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALayer_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB1C276248A218800BB7833 /* CALayer_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayer_testUITests.m; sourceTree = "<group>"; };
 		CAB1C278248A218800BB7833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB1C284248A21A300BB7833 /* CircleLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		CAB1C285248A21CD00BB7833 /* CircleLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				CAB1C253248A218600BB7833 /* SceneDelegate.m */,
 				CAB1C255248A218600BB7833 /* ViewController.h */,
 				CAB1C256248A218600BB7833 /* ViewController.m */,
+				CAB1C284248A21A300BB7833 /* CircleLayer.h */,
+				CAB1C285248A21CD00BB7833 /* CircleLayer.m */,
 				CAB1C258248A218600BB7833 /* Main.storyboard */,
 				CAB1C25B248A218800BB7833 /* Assets.xcassets */,
 				CAB1C25D248A218800BB7833 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB1C257248A218600BB7833 /* ViewController.m in Sources */,
+				CAB1C286248A21CD00BB7833 /* CircleLayer.m in Sources */,
 				CAB1C251248A218600BB7833 /* AppDelegate.m in Sources */,
 				CAB1C262248A218800BB7833 /* main.m in Sources */,
 				CAB1C254248A218600BB7833 /* SceneDelegate.m in Sources */,
